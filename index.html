@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital@1&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+</head>
+<body>
+<section class="game">
+    <header>
+        <h1 class="title">Угадай число!</h1>
+    </header>
+    <div class="game__content">
+        <div class="game__text">
+            <p>Привет!</p>
+            <p>Я загадал случайное число от 1 до 100. Посмотрим, сможешь ли ты угадать его за 10 ходов или меньше. Я подскажу, было ли твое предположение слишком большим или слишком маленьким.</p>
+        </div>
+        <div class="game__inner" id="create__button">
+            <div class="game__form">
+                <div class="answer">
+                    <label for="guessField">Введи свой ответ: </label>
+                    <input type="text" id="guessField" class="guessField">
+                </div>
+                <div>
+                    <input type="submit" value="Проверить!" class="guessSubmit">
+                </div>
+            </div>
+
+            <div class="resultParas">
+                <p class="guesses"></p>
+                <div class="lastResult"></div>
+                <p class="lowOrHi"></p>
+            </div>
+        </div>
+    </div>
+ </section>
+    <script src="script.js"></script>
+</body>
+</html>

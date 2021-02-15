@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;    
+    background: url(bg.png), linear-gradient(to bottom right, #9D38A0, #5890DB);
+    
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ .title {
+     margin-bottom: 20px;
+ }
+.game {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.game__text, .game__inner{
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.game__text {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.game__inner {
+    padding: 40px 15px;
+}
+
+.game__form {
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin-bottom: 20px;
+}
+.guessField {
+    height: 30px;
+    margin-left: 10px;
+    border: 1px #13AFEC solid;
+    border-radius: 15px;
+}
+
+.guessField:focus {
+    outline: none;
+    border: 1px #085472 solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.guessSubmit {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #0bc9d3;
+    width: 150px;
+    height: 40px;
+    border-color: #13AFEC;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #085472;
+    cursor: pointer;
+}
+
+.lastResult {
+    max-width: 80%;
+    margin: 15px auto;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.wrong {
+    background-color: #ec498ae3;
+}
+
+.right {
+    background-color: #46baa7;
+}
+
+.lowOrHi {
+    font-size: 14px;
+}
+
+.game__inner button {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #0bc9d3;
+    width: 200px;
+    height: 40px;
+    border-color: #13AFEC;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #085472;
+    cursor: pointer;
+}
